@@ -88,8 +88,8 @@ for ARCH in ${ARCHS}; do
         TEMP_OUT_DIR=${OUT}/${ARCH}
         TEMP_DIST_DIR=${DIST}/jniLibs/${ARCH}
 
-        cp -r ${TEMP_OUT_DIR}/include ${DIST}/jni
-        cp ${TEMP_OUT_DIR}/lib/libseurat.* ${TEMP_DIST_DIR}/
-        cp ${TEMP_OUT_DIR}/lib/libjingle_peerconnection*.* ${TEMP_DIST_DIR}/
+#        cp -r ${TEMP_OUT_DIR}/include ${DIST}/jni
+#        cp ${TEMP_OUT_DIR}/lib/libseurat.* ${TEMP_DIST_DIR}/
+#        cp ${TEMP_OUT_DIR}/lib/libjingle_peerconnection*.* ${TEMP_DIST_DIR}/
     fi
 done
