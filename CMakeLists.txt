@@ -39,6 +39,6 @@ endif()
 # libseurat.so
 # include(build-seurat)
 
-# include(build-faac)
-include(build-x264)
-# include(build-openh264)
+#include(build-faac)
+#include(build-x264)
+include(build-openh264)
