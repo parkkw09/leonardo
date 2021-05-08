@@ -18,7 +18,7 @@ else()
     message(FATAL_ERROR "Unknown LEONARDO_ARCH = [${LEONARDO_ARCH}]")
 endif()
 
-project(LEONARDO VERSION 1.0.0)
+project(LEONARDO VERSION 0.1.0)
 
 include(toolchain-common)
 
@@ -32,12 +32,12 @@ if(LEONARDO_CRYPTO)
     include(build-openssl)
 endif()
 include(build-yuv)
-include(build-rtmp)
-include(build-srt)
-include(build-rtc)
+#include(build-rtmp)
+#include(build-srt)
+#include(build-rtc)
 
 # libseurat.so
-include(build-seurat)
+# include(build-seurat)
 
 # include(build-faac)
 # include(build-x264)
