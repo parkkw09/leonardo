@@ -29,8 +29,3 @@ export CXX=$target_host_api-clang++
 export CFLAGS="-fPIE -fPIC"
 export CPPFLAGS="-fPIE -fPIC"
 export LDFLAGS="-pie"
-
-echo "peter test $TOOLCHAIN_PATH"
-echo "peter test $CC"
-echo "peter test $CXX"
-echo "peter test $PATH"

@@ -1,12 +1,11 @@
 #!/bin/bash
 
-while getopts t:h:a: option
+while getopts t:h: option
 do
  case "${option}"
  in
  t) toolchain_dir=${OPTARG};;
  h) target_host=${OPTARG};;
- a) target_host_api=${OPTARG};;
  esac
 done
 
@@ -22,8 +21,8 @@ export STRIP=$target_host-strip
 export RANLIB=$target_host-ranlib
 
 # Tell configure which android api to use.
-export CC=$target_host_api-clang
-export CXX=$target_host_api-clang++
+export CC=$target_host-gcc
+export CXX=$target_host-g++
 
 # Tell configure what flags Android requires.
 export CFLAGS="-fPIE -fPIC"
