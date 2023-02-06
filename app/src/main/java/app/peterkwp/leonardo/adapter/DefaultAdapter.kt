@@ -1,9 +1,9 @@
-package app.peterkwp.customlayout2.adapter
+package app.peterkwp.leonardo.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import app.peterkwp.customlayout2.R
+import app.peterkwp.leonardo.R
 
 class DefaultAdapter(private val list: List<String>): RecyclerView.Adapter<DefaultViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DefaultViewHolder {

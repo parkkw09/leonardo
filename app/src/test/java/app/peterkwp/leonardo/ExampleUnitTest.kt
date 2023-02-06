@@ -1,4 +1,4 @@
-package app.peterkwp.customlayout2
+package app.peterkwp.leonardo
 
 import org.junit.Test
 
