@@ -1,4 +1,4 @@
-package app.peterkwp.leonardo
+package app.peter.leonardo
 
 import org.junit.Test
 

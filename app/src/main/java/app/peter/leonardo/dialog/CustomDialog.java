@@ -1,4 +1,4 @@
-package app.peterkwp.leonardo.dialog;
+package app.peter.leonardo.dialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -13,7 +13,7 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.NonNull;
 
-import app.peterkwp.leonardo.R;
+import app.peter.leonardo.R;
 
 public class CustomDialog extends Dialog implements View.OnClickListener {
 

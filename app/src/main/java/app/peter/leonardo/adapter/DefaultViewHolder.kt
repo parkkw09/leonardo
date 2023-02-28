@@ -1,9 +1,9 @@
-package app.peterkwp.leonardo.adapter
+package app.peter.leonardo.adapter
 
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import app.peterkwp.leonardo.R
+import app.peter.leonardo.R
 
 class DefaultViewHolder(private val view: View): RecyclerView.ViewHolder(view) {
 

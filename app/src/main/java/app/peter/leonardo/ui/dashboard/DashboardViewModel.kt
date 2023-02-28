@@ -1,4 +1,4 @@
-package app.peterkwp.leonardo.ui.dashboard
+package app.peter.leonardo.ui.dashboard
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

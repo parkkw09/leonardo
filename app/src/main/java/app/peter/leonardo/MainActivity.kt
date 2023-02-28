@@ -1,4 +1,4 @@
-package app.peterkwp.leonardo
+package app.peter.leonardo
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
